@@ -1,0 +1,59 @@
+body > p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* allineamento centrato in verticale */
+.contenitore {
+    background-color: grey;
+}
+.contenitore img {
+    height: 100px;
+    vertical-align: middle;
+}
+/* fine allineamento centrato in verticale */
+
+
+
+/* allineamento di un testo in un contenitore con la line-height */
+.middle {
+    line-height: 200px;
+    height: 200px;
+    width:200px;
+    border: 3px solid green;
+    text-align: center;
+}
+.middle p {
+    line-height: 50px; 
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* fine allineamento di un testo in un contenitore con la line-height */
+
+
+
+/* inizio margin e padding */
+.sfondo {
+    background-color: aqua;
+}
+.proviamo-le-spaziature {
+    padding: 50px 20px;
+    border: solid 1px #000;
+    margin: 30px 10px;
+    display: inline-block;
+}
+/* fine margin e padding */
+
+
+
+/* collasso dei margini */
+.collasso_sopra {
+    margin: 50px 0px;
+    background-color: red;
+}
+.collasso_sotto {
+    margin: 100px 0px;
+    background-color: cyan;
+}
+/* fine collasso dei margini */
